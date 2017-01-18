@@ -59,5 +59,5 @@ cat collision_data.csv | <path_to_logstash_home>/bin/logstash -f logstash_collis
     
    * Select index `index name` in the upper left. 
    * Add the field `contributing_factors` as graph nodes using the (+) icon.  Select an appropriate icon/colour for the node types. 
-   * search for all the matching using '*'. Expand nodes to see the correlated contributing factors.  Try turning off **Settings** >> **Significant Links** to see the connections.
-
+   * search for all the matching using '*'.Expand nodes to see the correlated contributing factors. 
+   * Try turning off **Settings** >> **Significant Links** to see the connections.
